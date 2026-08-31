@@ -7,10 +7,10 @@ from functools import wraps
 app = Flask(__name__)
 
 # ============ CONFIG ============
-API_KEY        = os.environ.get("API_KEY", "TITANKING")
+API_KEY        = os.environ.get("API_KEY", "shreesh")
 PORT           = int(os.environ.get("PORT", 10000))
 UPSTREAM_URL   = os.environ.get("UPSTREAM_URL", "https://shareware-logs-laptop-mix.trycloudflare.com/search/number")
-UPSTREAM_KEY   = os.environ.get("UPSTREAM_KEY", "123")
+UPSTREAM_KEY   = os.environ.get("UPSTREAM_KEY", "htk_live_demo123456")
 OWNER          = os.environ.get("OWNER", "shaurya")
 CHANNEL        = os.environ.get("CHANNEL", "shaurya")
 CHANNEL_LINK   = os.environ.get("CHANNEL_LINK", "baad me")
