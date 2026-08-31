@@ -10,11 +10,11 @@ app = Flask(__name__)
 API_KEY        = os.environ.get("API_KEY", "TITANKING")
 PORT           = int(os.environ.get("PORT", 10000))
 UPSTREAM_URL   = os.environ.get("UPSTREAM_URL", "https://shareware-logs-laptop-mix.trycloudflare.com/search/number")
-UPSTREAM_KEY   = os.environ.get("UPSTREAM_KEY", "htk_live_demo123456")
-OWNER          = os.environ.get("OWNER", "@TITANCONTACT @g0zig")
-CHANNEL        = os.environ.get("CHANNEL", "@titankeng")
-CHANNEL_LINK   = os.environ.get("CHANNEL_LINK", "https://t.me/titankeng")
-API_BY         = os.environ.get("API_BY", "TITAN API")
+UPSTREAM_KEY   = os.environ.get("UPSTREAM_KEY", "123")
+OWNER          = os.environ.get("OWNER", "shaurya")
+CHANNEL        = os.environ.get("CHANNEL", "shaurya")
+CHANNEL_LINK   = os.environ.get("CHANNEL_LINK", "baad me")
+API_BY         = os.environ.get("API_BY", "num API")
 VERSION        = "1.0.0"
 # ================================
 
